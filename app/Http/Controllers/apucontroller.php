@@ -39,7 +39,7 @@ class apucontroller extends Controller
             $pwd1=$obj1['password'];
             if($user == $user1 && $pwd == $pwd1)
             {
-                return redirect('welcome');
+                return redirect('/');
             }
             else{
             return redirect('register')->with('status',"please register first");

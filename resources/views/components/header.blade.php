@@ -13,10 +13,12 @@
         <link href="css/my.css" rel="stylesheet" type="text/css">
     </head>
     <body class="antialiased">
-<div id="header">    
-            <div id="logo">
-            <h1>Apu's Badminton Club</h1>
+<div id="header">   
+    <div class="row">
+            <div id="logo" class="col-md-3">
+             <a href="/"><img src="/images/logo-italian-grey.png" alt="logo"></a>
             </div>
+            <div class="col-md-9">
             <div class="nav">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -24,7 +26,9 @@
                     <li><a href="rules">Rules</a></li>
                     <li><a href="login">Login</a></li>
                 </ul>
-            </div><br>
+            </div>
+            </div>
+    </div>
 </div>
 <div class="breadcrumbs">
             {{ Breadcrumbs::render() }}
