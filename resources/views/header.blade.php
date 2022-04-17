@@ -11,9 +11,11 @@
 
         <!-- Styles -->
         <link href="css/my.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     </head>
     <body class="antialiased">
-<div id="header">    
+<div id="header">  
+    <div class="row">  
             <div id="logo">
             <h1>Apu's Badminton Club</h1>
             </div>
@@ -25,4 +27,5 @@
                     <li><a href="login">Login</a></li>
                 </ul>
             </div>
-        </div>
+    </div>
+</div>
