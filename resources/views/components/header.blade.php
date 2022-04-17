@@ -11,9 +11,11 @@
 
         <!-- Styles -->
         <link href="css/my.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     </head>
     <body class="antialiased">
 <div id="header">   
+    <div class="container">
     <div class="row">
             <div id="logo" class="col-md-3">
              <a href="/"><img src="/images/logo-italian-grey.png" alt="logo"></a>
@@ -28,6 +30,7 @@
                 </ul>
             </div>
             </div>
+    </div>
     </div>
 </div>
 <div class="breadcrumbs">
